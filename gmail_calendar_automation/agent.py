@@ -1,9 +1,9 @@
 from google.adk import Agent
 from dotenv import load_dotenv
 import os
-from customer_automation_agent.prompt import root_agent_prompt
-from customer_automation_agent.sub_agents.gmail_agent.agent import gmail_root_agent
-from customer_automation_agent.sub_agents.google_calendar_agent.agent import google_calendar_root_agent
+from gmail_calendar_automation.prompt import root_agent_prompt
+from gmail_calendar_automation.sub_agents.gmail_agent.agent import gmail_root_agent
+from gmail_calendar_automation.sub_agents.google_calendar_agent.agent import google_calendar_root_agent
 
 load_dotenv()
 

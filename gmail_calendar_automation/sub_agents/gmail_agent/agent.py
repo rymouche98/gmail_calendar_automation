@@ -1,8 +1,8 @@
 from google.adk import Agent
 from dotenv import load_dotenv
 import os
-from customer_automation_agent.tools.gmail_tool import GmailTool
-from customer_automation_agent.sub_agents.gmail_agent.prompt import prompt_retriever, prompt_sender, prompt_root
+from gmail_calendar_automation.tools.gmail_tool import GmailTool
+from gmail_calendar_automation.sub_agents.gmail_agent.prompt import prompt_retriever, prompt_sender, prompt_root
 
 
 load_dotenv()

@@ -1,7 +1,7 @@
 from google.adk import Agent
 from dotenv import load_dotenv
 import os
-from customer_automation_agent.tools.google_calendar_tool import GoogleCalendarTool
+from gmail_calendar_automation.tools.google_calendar_tool import GoogleCalendarTool
 
 load_dotenv()
 
